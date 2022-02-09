@@ -6,6 +6,8 @@ import time
 
 st.title('研究オリジナルTシャツ　公開！')
 
+st.write("DB password:", st.secrets["db_password"])
+
 # st.write('DataFrame')
 
 # df=pd.DataFrame({
