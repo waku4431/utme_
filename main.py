@@ -39,8 +39,8 @@ st.title('Streamlit 超入門')
 # )
 # st.map(df)
 
-# img=Image.open('utme.jpg')
-# st.image(img,caption='utme',use_column_width=True)
+img=Image.open('utme.jpg')
+st.image(img,caption='utme',use_column_width=True)
 
 st.write('プログレスバーの表示')
 # 'Start!!'
