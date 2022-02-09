@@ -39,10 +39,10 @@ st.title('Streamlit 超入門')
 # )
 # st.map(df)
 
-img=Image.open('utme.jpg')
+img=Image.open('utme.JPG')
 st.image(img,caption='utme',use_column_width=True)
 
-st.write('プログレスバーの表示')
+#st.write('プログレスバーの表示')
 # 'Start!!'
 
 # latest_iteration=st.empty()
