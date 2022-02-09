@@ -4,9 +4,13 @@ import pandas as pd
 from PIL import Image
 import time
 
+
+st.write("DB username:", st.secrets["db_username"])
+st.write("DB password:", st.secrets["db_password"])
+st.write("My cool secrets:", st.secrets["my_cool_secrets"]["things_i_like"])
 st.title('研究オリジナルTシャツ　公開！')
 
-st.write("DB password:", st.secrets["db_password"])
+
 
 # st.write('DataFrame')
 
