@@ -9,4 +9,3 @@ st.title('研究オリジナルTシャツ　公開！')
 img=Image.open('utme.JPG')
 st.image(img,caption='utme',use_column_width=True)
 
-st.write('中身!')
